@@ -29,4 +29,6 @@ jQuery(document).ready(function($) {
 });
 
 function delay() {
+    $(".buryit").removeAttr("onclick");
+}
    
